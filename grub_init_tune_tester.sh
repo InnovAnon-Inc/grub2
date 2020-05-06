@@ -1,4 +1,5 @@
 #!/bin/bash
+# http://wiki.thorx.net/wiki/GRUB
 
 if [ $# -lt 3 ]; then
     echo "Usage: $0 tempo freq dur [freq dur freq dur...]" >&2

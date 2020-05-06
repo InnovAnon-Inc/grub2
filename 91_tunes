@@ -1,4 +1,5 @@
 #!/bin/sh
+# https://www.askapache.com/linux/grub_init_tune-play-sound-through-pcspkr/#91_tunes_grub_config_file
 
 exec tail -n +3 $0
 menuentry "Tunes Test" {

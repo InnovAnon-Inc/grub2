@@ -1,16 +1,16 @@
 #!/bin/bash
 # http://wiki.thorx.net/wiki/GRUB
 
-if [ $# -lt 3 ]; then
+if [[ $# -lt 3 ]]; then
     echo "Usage: $0 tempo freq dur [freq dur freq dur...]" >&2
     exit 1
 fi
 
 tempo=$1; shift
 
-while [ -n "$*" ]; do
+while [[ -n "$*" ]]; do
     freq=$1; shift
-    [ $freq -eq 0 ] && freq=1  # beep will fail if $freq is 0
+    [[ $freq -eq 0 ]] && freq=1  # beep will fail if $freq is 0
     dur=$1;  shift
     dur=$((60000*$dur/$tempo))
     # ie, 60 (bpm) * 1000 (for milliseconds) * duration / tempo

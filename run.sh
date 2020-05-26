@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /usr/bin/env bash
 set -exu
 
     grep -vq  '^blacklist pcspkr$/'    /etc/modprobe.d/blacklist.conf ||

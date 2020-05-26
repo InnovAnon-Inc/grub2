@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /usr/bin/env bash
 # http://wiki.thorx.net/wiki/GRUB
 
 if [[ $# -lt 3 ]]; then

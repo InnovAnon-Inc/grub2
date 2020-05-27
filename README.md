@@ -1,5 +1,6 @@
 # grub2 configs
 ==========
+
 Add InnovAnon, Inc. corporate branding to your bootloader,
 includes graphics and audio
 

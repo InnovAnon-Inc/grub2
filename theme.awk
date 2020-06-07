@@ -1,3 +1,5 @@
+#! /usr/bin/env fawk
+
 BEGIN { FS="=" }
 
 /^GRUB_INIT_TUNE/ {
